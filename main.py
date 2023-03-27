@@ -15,8 +15,8 @@ bot = commands.Bot(
     intents=discord.Intents.all(),
     case_insensitive=True,
     description="Spread Positivity",
+    help_command=None
 )
-bot.remove_command("help")
 
 
 @bot.event
